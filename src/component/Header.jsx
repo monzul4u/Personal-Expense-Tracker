@@ -30,13 +30,13 @@ const Header = ({ budget, balance, onUpdateBudget }) => {
             />
           ) : (
             <span className="text-lg">
-              Budget: <strong>${budget.toFixed(2)}</strong>
+              Budget: <strong>£{budget.toFixed(2)}</strong>
             </span>
           )}
         </div>
         <div className="mt-2">
           <span className="text-lg">
-            Net Balance: <strong>${balance.toFixed(2)}</strong>
+            Net Balance: <strong>£{balance.toFixed(2)}</strong>
           </span>
         </div>
       </div>

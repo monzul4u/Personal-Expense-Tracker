@@ -33,7 +33,7 @@ const ExpenseItem = ({ expense, onEditExpense, onDeleteExpense }) => {
         ) : (
           <>
             <span className="text-lg font-medium">{expense.title}</span>
-            <span className="text-gray-500">${expense.amount.toFixed(2)}</span>
+            <span className="text-gray-500">£{expense.amount.toFixed(2)}</span>
           </>
         )}
       </div>

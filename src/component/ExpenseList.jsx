@@ -86,7 +86,7 @@ const ExpenseList = ({ expenses, onEditExpense, onDeleteExpense }) => {
                 <>
                   <span className="font-medium">{expense.title}</span>
                   <span className="font-medium">
-                    ${expense.amount.toFixed(2)}
+                    £{expense.amount.toFixed(2)}
                   </span>
                   <div>
                     <button
