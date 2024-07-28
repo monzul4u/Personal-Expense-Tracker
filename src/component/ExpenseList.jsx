@@ -85,7 +85,7 @@ const ExpenseList = ({ expenses, onEditExpense, onDeleteExpense }) => {
                 // Normal display mode
                 <>
                   <span className="font-medium">{expense.title}</span>
-                  <span className="font-medium">
+                  <span className="font-medium text-center">
                     £{expense.amount.toFixed(2)}
                   </span>
                   <div>
